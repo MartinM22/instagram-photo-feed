@@ -1,0 +1,12 @@
+#navbarDropdownMenuLink {
+    background-color: gray;
+    border-radius: 10px;
+}
+
+#navbarDropdownMenuLink {
+    color: white;
+}
+
+#logout {
+    color: red;
+}
