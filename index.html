@@ -33,7 +33,9 @@
                 crossorigin="anonymous"
             ></script>
         <div>
+
             <!-- Navbar -->
+
             <nav class="navbar navbar-expand-lg bg-light">
                 <div class="container">
                     <a class="navbar-brand d-flex align-items-center gap-1" href="#">
@@ -98,26 +100,87 @@
                             </li>
                 </div>
             </nav>
-            <!-- Iconos de cuadricula -->
-            <div class="icons" id="icons-menu">
-                <i class="fa-solid fa-table-cells"></i>
-                <i class="fa-solid fa-square"></i>
-            </div>
+
+            <!-- Botones Cambio de layout -->
             
-            <!-- Grid con 3 imágenes por fila-->
-            <section id="grid-3" class="container-fluid">
-                <div class="row">
-                    <div class="col-4"><img src="https://picsum.photos/200" alt=""></div>
-                    <div class="col-4"><img src="https://picsum.photos/200" alt=""></div>
-                    <div class="col-4"><img src="https://picsum.photos/200" alt=""></div>
-                    <div class="col-4"><img src="https://picsum.photos/200" alt=""></div>
-                    <div class="col-4"><img src="https://picsum.photos/200" alt=""></div>
-                    <div class="col-4"><img src="https://picsum.photos/200" alt=""></div>
-                    <div class="col-4"><img src="https://picsum.photos/200" alt=""></div>
-                    <div class="col-4"><img src="https://picsum.photos/200" alt=""></div>
-                    <div class="col-4"><img src="https://picsum.photos/200" alt=""></div>
+            <ul class="nav nav-pills mb-1 justify-content-center" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-grid3-tab" data-bs-toggle="pill" data-bs-target="#pills-grid3" type="button" role="tab" aria-controls="pills-grid3" aria-selected="true">
+                    <i class="fa-solid fa-table-cells"></i>
+                </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-grid1-tab" data-bs-toggle="pill" data-bs-target="#pills-grid1" type="button" role="tab" aria-controls="pills-grid1" aria-selected="false">
+                    <i class="fa-solid fa-square"></i>
+                </button>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-grid3" role="tabpanel" aria-labelledby="pills-grid3-tab">
+                    
+                    <!-- Grid con 3 imágenes por fila-->
+
+                    <section id="grid-3" class="container-fluid">
+                        <div class="row">
+                            <div class="col-4"><img src="https://picsum.photos/200" alt=""></div>
+                            <div class="col-4"><img src="https://picsum.photos/200" alt=""></div>
+                            <div class="col-4"><img src="https://picsum.photos/200" alt=""></div>
+                            <div class="col-4"><img src="https://picsum.photos/200" alt=""></div>
+                            <div class="col-4"><img src="https://picsum.photos/200" alt=""></div>
+                            <div class="col-4"><img src="https://picsum.photos/200" alt=""></div>
+                            <div class="col-4"><img src="https://picsum.photos/200" alt=""></div>
+                            <div class="col-4"><img src="https://picsum.photos/200" alt=""></div>
+                            <div class="col-4"><img src="https://picsum.photos/200" alt=""></div>
+                        </div>
+                    </section>
                 </div>
-            </section>
+                <div class="tab-pane fade" id="pills-grid1" role="tabpanel" aria-labelledby="pills-grid1-tab">
+                    
+                    <!-- Grid con 1 imágen por fila -->
+
+                        <div class="ig-post">
+                            <div class="header">
+                                <h5>My Crazy dog Spark!</h5>
+                                <h6>08/26</h6>
+                            </div>
+                            <div class="image">
+                                <img src="https://picsum.photos/543/360" alt="">
+                            </div>
+                            <div>
+                                <strong>204 Likes</strong>
+                                <p>This is an example of a very good photo tah you can post on instagram</p>
+                            </div>
+                        </div>
+
+                        <div class="ig-post">
+                            <div class="header">
+                                <h5>My Crazy dog Spark!</h5>
+                                <h6>08/26</h6>
+                            </div>
+                            <div class="image">
+                                <img src="https://picsum.photos/543/360" alt="">
+                            </div>
+                            <div>
+                                <strong>204 Likes</strong>
+                                <p>This is an example of a very good photo tah you can post on instagram</p>
+                            </div>
+                        </div>
+
+                        <div class="ig-post">
+                            <div class="header">
+                                <h5>My Crazy dog Spark!</h5>
+                                <h6>08/26</h6>
+                            </div>
+                            <div class="image">
+                                <img src="https://picsum.photos/543/360" alt="">
+                            </div>
+                            <div>
+                                <strong>204 Likes</strong>
+                                <p>This is an example of a very good photo tah you can post on instagram</p>
+                            </div>
+                        </div>
+                </div>
+            
         </div>
 	</body>
 </html>
