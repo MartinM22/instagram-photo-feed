@@ -10,3 +10,38 @@
 #logout {
     color: red;
 }
+
+#icons-menu {
+    display: flex;
+    justify-content: center;
+}
+
+#grid-3 img {
+    width: 100%;
+}
+
+#grid-3 img:hover {
+    border: 5px solid white;
+}
+
+#grid-3 .col-4 {
+    margin: 0 !important;
+    padding: 5px;
+}
+
+.modal-body {
+    padding-bottom: 5px;
+}
+
+.modal-icons {
+    display: flex;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.modal-icons i {
+    margin-right: 10px;
+    border-radius: 1px;
+    background-color: rgb(239, 237, 234);
+    justify-content: center;
+}
